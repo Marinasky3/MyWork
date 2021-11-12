@@ -1,0 +1,7 @@
+.layoutContainer_wrapper{
+
+    min-height: 100vh;
+    background-color:  #242122;
+    display: flex;
+    flex-direction: column;
+}

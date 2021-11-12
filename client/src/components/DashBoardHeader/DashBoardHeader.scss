@@ -1,0 +1,78 @@
+.dashBoardHeader_wrapper{
+    height: 81px;
+    background: #242122;
+    display: flex;
+    position: relative;
+}
+.dashBoardHeader_logo{
+    margin-left: 40px;
+    line-height: 81px;
+
+    font-size: 2rem;
+    color: #7CB3BF;
+    font-weight: 600;
+
+
+}
+
+.dashBoardHeader_inputWrapper{
+    line-height: 81px;
+    display: flex;
+    align-items: center;
+    margin-left: 297px;
+}
+.dashBoardHeader_selectSatellite{
+    box-sizing: border-box;
+   display: flex;
+    overflow: hidden;
+    width: 439px;
+    height: 41px;
+    color: #7CB3BF;
+    border: 1px solid #7CB3BF;
+    background-color:  #223540;
+    border-radius: 8px;
+    margin-left: 25px;
+    line-height: 39px;
+    padding-left: 16px ;
+    padding-right: 16px ;
+    font-size: 1.4rem;
+    transition: color 400ms ease;
+
+    &:hover{
+        color: #E9F7FF;
+        transition: color 300ms ease;
+    }
+    
+    svg {
+        display: inline-block;
+        font-size: 20px;
+        height: 41px;
+
+        // margin-top: 10px;
+        margin-left: 310px;
+
+    }
+}
+
+.dashBoardHeader_addButton{
+    display: inline-block;
+    margin-left: 475px;
+    height: 41px;
+    width: 84px;
+
+    background: #223540;
+    border: 1px solid #20404A;
+    border-radius: 8px;
+
+    font-family: Barlow;
+    color:#7CB3BF;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all 400ms ease;
+    &:hover {
+        color: #E9F7FF;
+        border: 1px solid #7CB3BF;
+        transition: all 400ms ease;
+    }
+
+}

@@ -1,0 +1,40 @@
+.header_wrapper{
+   /* width: 100%; */
+   box-sizing: border-box;
+   border-bottom: 1px solid  #20404A;
+   width: 1440px;
+   background-color: #242122;
+   height: 60px; 
+   line-height: 60px;
+
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-left: 40px;
+   padding-right: 40px;
+}
+.header_logoWrapper{
+   width: 255px;
+   height: 44px;
+   background-color: #E9F7FF;
+   background: url(../../images/Logo2.svg);
+}
+.header_userInfoWrapper{
+   /* width: 132px; */
+   height: 40px;
+   font-size: 1.6rem;
+   color: #E9F7FF;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+   svg{
+      color: #7CB3BF;
+      display: inline-block;
+      margin-left: 18px;
+      font-size: 1.6rem;
+   }
+}
+.header_userInfoWrapper:hover{
+   cursor: pointer;
+}

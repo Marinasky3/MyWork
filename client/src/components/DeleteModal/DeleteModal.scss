@@ -1,0 +1,80 @@
+
+.deleteModal_wrapper{
+    height: 267px;
+    width: 368px;
+    margin: auto;
+    margin-top: 250px;
+
+    background-color: #242122;
+    border: 1px solid #223540;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 40px rgba(191, 224, 255, 0.1);
+    border-radius: 16px;
+    padding: 40px;
+    padding-right: 35px;
+
+    .deleteModal_mainWrapper{
+        display: flex;
+        svg{
+            color: #7CB3BF;
+            font-size: 2.2rem;
+            cursor: pointer;
+        }
+    }
+    .deleteModal_textWrapper{
+        margin-left: 24px;
+        // margin-right: 29px;
+        font-size: 1.6rem;
+        font-weight: normal;
+        color: #E9F7FF;
+        height: 140px;
+        overflow: hidden;
+
+        .deleteModal_headerWrapper{
+            font-size: 2rem;
+            margin-bottom: 16px;
+
+        }
+    }
+    .deleteModal_footerWrapper{
+        width: 170px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+
+        button{
+            height: 41px;
+            font-family: Barlow;
+            font-size: 1.4rem;
+            border-radius: 8px;
+            cursor: pointer;
+            display: inline-block;
+            padding: 12px 16px 12px 16px
+
+
+        }
+        .deleteModal_cancelButton {
+            color: #E31863;
+            border: 1px solid #E31863;
+            background-color: #242122;
+            transition: all 300ms ease;
+
+            &:hover{
+                transition: all 300ms ease;
+                background-color: #223540;
+            }
+
+        }
+        .deleteModal_deleteButton{
+            color: #E9F7FF;
+            background: #E31863;
+            border: none;
+            transition: all 300ms ease;
+
+            &:hover{
+                background:#C31556;
+                transition: all 300ms ease;
+            }
+        }
+    }
+}

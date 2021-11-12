@@ -1,0 +1,35 @@
+.dashBoardBarChart_wrapper{
+    box-sizing: border-box;
+    padding: 16px;
+    background-color: #262628;;
+    width: 555px;
+    height: 318px;
+
+    margin-left: 20px;
+    border-radius: 8px;
+
+}
+.dashBoardBarChart_headerWrapper{
+    color: #7CB3BF;
+    font-weight: 400;
+    font-size: 1.4rem;
+
+}
+.dashBoardBarChart_barChart_wrapper{
+    width: 500px;
+    height: 240px;
+    // background-color: bisque;
+    margin: auto;
+    margin-top: 25px;
+    position: relative;
+}
+.dashBoardBarChart_bottomLegend{
+    color: #7CB3BF;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 467px;
+    position: absolute;
+    left: 46px;
+    bottom: 0px
+
+}

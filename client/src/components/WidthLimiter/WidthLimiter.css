@@ -1,0 +1,7 @@
+.widthLimiter{
+    max-width: 1440px;
+    margin: auto;
+    flex-shrink: 1;
+    /* display: flex; */
+
+}

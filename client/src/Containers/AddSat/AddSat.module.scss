@@ -1,0 +1,28 @@
+.addSat{
+    width: 405px;
+    min-height: 645px;
+    background: #242122;;
+    /* bg light */
+
+    border: 1px solid #223540;
+    box-sizing: border-box;
+    margin: auto ;
+    margin-top: 117px;
+
+    padding: 40px;
+    
+    /* pop ups */
+
+    box-shadow: 0px 0px 40px rgba(191, 224, 255, 0.15);
+    border-radius: 16px;
+
+    .MuiStepIcon-active {
+        .MuiStepIcon-text{
+            fill:aqua !important;
+            color: aqua !important;
+        }
+    }
+}
+.test{
+    // color:red;
+}

@@ -1,0 +1,29 @@
+
+
+.popOver_wrapper{
+    width: 304px;
+    max-height: 98px;
+    padding: 10px 12px 10px 12px;
+    box-sizing: border-box;
+    background:  linear-gradient(285.98deg, #0E7CAA -57.07%, #0CE2E2 199.89%);
+    border-radius: 8px;
+    margin-top: 27px;
+    font-family: Barlow;
+
+
+    .popOver_headerWrapper{
+        color:#E9F7FF;
+        font-size: 1.6rem;
+        line-height: 22px;
+        
+    }
+    .popOver_bodyWrapper{
+        
+        a{
+            color:#262628;
+        font-size: 1.4rem;
+        
+    }
+}
+
+}

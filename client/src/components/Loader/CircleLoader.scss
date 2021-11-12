@@ -1,0 +1,170 @@
+.circleLoade_typeWrapper{
+    position: absolute;
+    background-color: #242122;
+    top: 70px;
+    width: 325px;
+    height: 360px;
+    z-index: 100000
+}
+.circleLoade_editWrapper{
+    background-color: #242122;
+    top: 70px;
+    width: 325px;
+    height: 339px;
+
+    svg:last-child{
+        position: absolute;
+        left: 10px
+    }
+
+}
+.circleLoader_bigBackground{
+    width: 800px;
+    height: 600px;
+    margin: auto;
+    margin-top: -150px;
+    background-color: #242122;
+    box-sizing: border-box;
+    position: relative;
+    // padding-top: 200px;
+    // padding-top: 200px;
+    .circleLoade_wrapper{
+        // position: absolute;
+        // top: 50px;
+        margin-top: 250px!important;
+    }
+
+}
+.circleLoade_wrapper{
+    width: 70px;
+    margin: auto;
+    margin-top: 120px;
+    height: 120px;
+    background-color: #242122;
+    
+    // top: 200px;
+    // left: 
+    div:first-child{
+        margin-bottom: 38px;
+        font-size: 1.6rem;
+        background: linear-gradient(0deg, #0CE2E2 0%, #0E7CAA 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;  
+        // animation-name: changeColor;
+        // animation-duration: 1000ms;
+        // animation-iteration-count: infinite;
+        // animation-timing-function: linear;
+         
+
+    }
+
+}
+.circleLoade_loaderWrapper{
+    height: 53.33;
+    width: 53.33;
+    position: relative;
+    left: 0;
+    svg:first-child{
+        animation-name: spin;
+        animation-duration: 2000ms;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+    svg:nth-child(2){
+        position: absolute;
+        top: 11px;
+        right: 17px;
+        animation-name: spin;
+        animation-duration: 1000ms;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        
+    }
+
+}
+@keyframes spin { 
+    from { 
+        transform: rotate(0deg); 
+    } to { 
+        transform: rotate(360deg); 
+    }
+}
+// @keyframes changeColor { 
+//     from { 
+//         background: linear-gradient(180deg, #0CE2E2 0%, #0E7CAA 100%);
+//         -webkit-background-clip: text;
+//         -webkit-text-fill-color: transparent;
+//     } to { 
+//         background: linear-gradient(180deg, #0E7CAA 0%, #0CE2E2 100%);
+//         -webkit-background-clip: text;
+//         -webkit-text-fill-color: transparent;
+//     }
+// }
+
+.dashBoard_loaderWrapper{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+    // background-color: aqua;
+    z-index: 3;
+    backdrop-filter: blur(3px);
+
+    .circleLoade_wrapper{
+        width: 200px;
+        margin: auto;
+        margin-top: 120px;
+        height: 120px;
+        background-color: rgba(0,0,0,0);
+        
+        // top: 200px;
+        // left: 
+        .circleLoade_typeWrapper{
+            position: absolute;
+            background-color: rgba(0,0,0,0);
+            // top: 300px;
+            width: 325px;
+            height: 360px;
+            z-index: 100000
+        }
+        div:first-child{
+            margin-top: 350px;
+            margin-bottom: 38px;
+            font-size: 2rem;
+            font-weight: 700;
+            background: linear-gradient(90deg, #0CE2E2 0%, #0E7CAA 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;   
+    
+        }
+    
+    }
+
+
+    .circleLoade_loaderWrapper{
+        height: 53.33;
+        width: 53.33;
+        position: relative;
+        left: 0;
+        text-align: center;
+    svg:first-child{
+        animation-name: spin;
+        animation-duration: 2000ms;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+    svg:nth-child(2){
+        position: absolute;
+        top: 10.5px;
+        right: 82px;
+        animation-name: spin;
+        animation-duration: 1000ms;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        
+    }
+}
+
+
+}

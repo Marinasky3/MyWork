@@ -1,0 +1,19 @@
+.errorBoundary_wrapper{
+    text-align: center;
+    padding-top: 120px;
+    div:nth-child(2){
+        font-size: 2.4rem;
+        color:#FFFFFF;
+        text-align: center;
+        margin-top: 24px;
+    }
+    div:nth-child(3){
+        margin-top: 8px;
+        font-size: 2rem;
+        font-weight: 400;
+        background: linear-gradient(90deg, #0CE2E2 -100%, #0E7CAA 100%);
+         -webkit-background-clip: text;
+         -webkit-text-fill-color: transparent;
+    }
+
+}

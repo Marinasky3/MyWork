@@ -1,0 +1,42 @@
+body {
+
+  margin: 0;
+  font-family: Barlow;
+  background-color: #242122;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  .MuiBackdrop-root{
+    backdrop-filter: blur(2px)!important;
+    filter: blur(3px);
+    background-color: rgba(0, 0, 0, 0) !important;
+  }
+  .MuiPopover-paper{
+    
+    background-color: rgba(0,0,0,0) !important;
+
+}
+input{
+  font-family: Barlow !important;
+}
+button{
+  font-family: Barlow !important;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+

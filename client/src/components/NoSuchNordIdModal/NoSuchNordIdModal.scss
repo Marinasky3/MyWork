@@ -1,0 +1,30 @@
+.noSuchNordIdModal{
+    padding-top: 80px;
+    box-sizing: border-box;
+    width: 330px;
+    margin: auto;
+    background-color: #242122;
+    position: absolute;
+    top: 75px;
+    height: 400px;
+    text-align: center;
+    z-index: 100000;
+
+    div{
+        color: #E9F7FF;
+        font-size: 1.6rem;
+    }
+    .noSuchNordIdModal_error{
+        color:#E31863;
+        font-size: 2rem;
+        margin-top: 25px;
+        margin-bottom: 16px;
+    }
+    div:last-child{
+        background: linear-gradient(90deg, #0CE2E2 0%, #0E7CAA 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; 
+        margin-top: 20px;
+    }
+
+}

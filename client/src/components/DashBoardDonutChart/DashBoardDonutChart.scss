@@ -1,0 +1,65 @@
+.dashBoardDonutChart_wrapper{
+    height: 320px;
+    width: 325px;
+    border-radius: 8px;
+    background-color: #262628;
+    box-sizing: border-box;
+    padding: 16px;
+
+}
+.dashBoardDonutChart_generalInfo{
+    color: #7CB3BF;
+    font-weight: 400;
+    font-size: 1.4rem;
+
+
+}
+.dashBoardDonutChart_donutChart_wrapper{
+    height: 160px;
+    width: 160px;
+    margin: auto;
+    margin-top: 33px;
+    border-radius: 50%;
+    // background-color: #7CB3BF;
+    box-shadow: 0px 1px 20px 9px rgba(14, 60, 82, 0.61);
+    margin-bottom: 26px;
+}
+.dashBoardDonutChart_donutChart_legend{
+    width: 293px;
+    height: 57px;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    overflow: hidden;
+    color: #7CB3BF;
+    // span{
+    //     font-size: 1.4rem;
+    // }
+    > div:first-child>div:first-child{
+        border-bottom: 2px solid #21449E;
+    }
+    > div:nth-child(2)>div:first-child{
+        border-bottom: 2px solid #3467CA;
+    }
+    > div:nth-child(3)>div:first-child{
+        border-bottom: 2px solid #3494CA;
+    }
+    > div:nth-child(4)>div:first-child{
+        border-bottom: 2px solid #5BC8EB;
+    }
+    > div:nth-child(5)>div:first-child{
+        border-bottom: 2px solid #5BEBE2;
+    }
+}
+
+.dashBoardDonutChart_donutChart_legendFor > div:first-child{
+    font-size: 1.6rem;
+    font-weight: 700 ;
+    padding-bottom: 2px;
+    // border-bottom: ;
+}
+.dashBoardDonutChart_donutChart_legendFor > div:nth-child(2){
+    font-size: 1.4rem;
+    margin-top: 1px;
+}
+            

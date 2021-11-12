@@ -1,0 +1,64 @@
+.signIn{
+    width: 100%;
+    height: 100vh; 
+    overflow: hidden;
+    background-image:  url('../../images/background.png');
+    background-size: cover ;
+    
+}
+.signUpContainer{
+    width: 325px;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    top: 45px;
+    left: 155px;
+}
+.logo{
+    background-image: url('../../images/Logo.svg');
+    width: 201px;
+    height: 40px !important;
+    background-size: cover;
+
+}
+
+.registerText{
+    margin-top: 38px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #E9F7FF;
+}
+
+.registerUnderText{
+    margin-top: 12px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #7CB3BF;
+}
+.login{
+    margin-top: 24px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #7CB3BF;
+}
+.link{
+    margin-left: 12px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+    text-decoration: none;
+    color: rgba(13, 185, 204, 1);
+}
